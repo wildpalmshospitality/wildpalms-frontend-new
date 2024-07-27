@@ -11,7 +11,7 @@ const BLockFeatureThree = () => {
             <div className="position-relative">
                <div className="row">
                   <div className="title-one text-center mb-50 lg-mb-20 wow fadeInUp">
-                     <h3>Buy, Rend & Sell</h3>
+                     <h3>Buy, Rent & Sell</h3>
                      <p className="fs-22">Over 745K listings of apartments, lots, plots - available today.</p>
                   </div>
                </div>

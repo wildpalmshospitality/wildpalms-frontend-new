@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image"
 import Fancybox from "@/components/common/Fancybox"
 import Link from "next/link"
 
-import offcanvasLogo from "@/assets/images/logo/logo_02.svg"
+import offcanvasLogo from "@/assets/images/logo/1.png"
 
 import offcanvasThumb_1 from "@/assets/images/listing/img_69.jpg"
 import offcanvasThumb_2 from "@/assets/images/listing/img_70.jpg"
