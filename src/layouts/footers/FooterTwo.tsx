@@ -2,7 +2,7 @@
 import Image from "next/image"
 import Link from "next/link";
 
-import footerLogo_1 from "@/assets/images/logo/logo_05.svg"
+import footerLogo_1 from "@/assets/images/logo/1.png"
 import footerShape_1 from "@/assets/images/shape/shape_46.svg"
 import footerShape_2 from "@/assets/images/shape/shape_47.svg"
 import footerIcon_1 from "@/assets/images/icon/icon_30.svg"
@@ -21,9 +21,9 @@ interface ContentType {
 const footer_content: ContentType = {
    title: "Our Newsletter",
    desc_1: "Get instant news by subscribe to our newsletter",
-   desc_2: "11910 Clyde Rapid Suite 210, Wil, Virginia, USA",
-   email: "homyreal@demo.com",
-   number: "+757 699-4478",
+   desc_2: "Siolim, Goa 403519",
+   email: "Nikhilgupta@crackerjack.live",
+   number: "+91 87578 50115",
    icon: ["facebook-f", "twitter", "instagram"],
 }
 
@@ -75,7 +75,7 @@ const FooterTwo = () => {
 
                         <ul className="style-none d-flex align-items-center social-icon">
                            {icon.map((icon, i) => (
-                              <li key={i}><Link href="#"><i className={`fa-brands fa-${icon}`}></i></Link></li>
+                              <li key={i}><Link href=""><i className={`fa-brands fa-${icon}`}></i></Link></li>
                            ))}
                         </ul>
                         <Image src={footerShape_1} alt="" className="lazy-img shapes shape_01 d-none d-xl-block" />
@@ -113,7 +113,7 @@ const FooterTwo = () => {
                      <li><Link href="/faq">Cookies</Link></li>
                      <li><Link href="/contact">Contact Us</Link></li>
                   </ul>
-                  <p className="mb-15 text-center text-lg-start order-md-first">Copyright @2024 Homy inc.</p>
+                  <p className="mb-15 text-center text-lg-start order-md-first">© Wildpalms Hospitality - All rights reserved</p>
                </div>
             </div>
          </div>

@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import footer_data from "@/data/home-data/FooterData"
 
-import footerLogo from "@/assets/images/logo/logo_06.svg"
+import footerLogo from "@/assets/images/logo/1.png"
 import footerShape_1 from "@/assets/images/shape/shape_52.svg"
 
 const FooterThree = () => {
@@ -60,7 +60,7 @@ const FooterThree = () => {
                      <li><Link href="/faq">Privacy &amp; Terms</Link></li>
                      <li><Link href="/contact">Contact Us</Link></li>
                   </ul>
-                  <p className="mb-15 text-center text-lg-start fs-16 order-md-first">Copyright @2024 Homy inc.</p>
+                  <p className="mb-15 text-center text-lg-start fs-16 order-md-first">© Wildpalms Hospitality - All rights reserved</p>
                </div>
             </div>
          </div>

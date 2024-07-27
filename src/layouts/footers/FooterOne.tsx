@@ -2,8 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 import footer_data from "@/data/home-data/FooterData"
 
-import footerLogo_1 from "@/assets/images/logo/logo_01.svg"
-import footerLogo_2 from "@/assets/images/logo/logo_03.svg"
+import footerLogo_1 from "@/assets/images/logo/1.png"
+import footerLogo_2 from "@/assets/images/logo/2.png"
 import footerShape_1 from "@/assets/images/shape/shape_32.svg"
 import footerShape_2 from "@/assets/images/shape/shape_33.svg"
 
@@ -23,9 +23,9 @@ const FooterOne = ({ style }: any) => {
                                  <Image src={style ? footerLogo_2 : footerLogo_1} alt="" />
                               </Link>
                            </div>
-                           <p className="mb-60 lg-mb-40 md-mb-20">11910 Clyde Rapid Suite 70, Willyand, Virginia, United States</p>
+                           <p className="mb-60 lg-mb-40 md-mb-20">Siolim, Goa 403519</p>
                            <h6>CONTACT</h6>
-                           <Link href="#" className={`email tran3s mb-70 lg-mb-50 ${style ? "font-garamond" : "fs-24 text-decoration-underline"}`}>homyreal@demo.com</Link>
+                           <Link href="#" className={`email tran3s mb-70 lg-mb-50 ${style ? "font-garamond" : "fs-24 text-decoration-underline"}`}>Nikhilgupta@crackerjack.live</Link>
                            <ul className="style-none d-flex align-items-center social-icon">
                               {icon_1.map((icon, i) => (
                                  <li key={i}><Link href="#"><i className={`fa-brands fa${style ? "" : "-square"}-${icon}`}></i></Link></li>
