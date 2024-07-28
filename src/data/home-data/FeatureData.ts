@@ -52,7 +52,7 @@ const feature_data: DataType[] = [
       icon: featureIcon_1,
       title: "Buy a home",
       btn:"Find Home",
-      desc: "Explore homy’s 2 million+ homes and uncover your ideal living space.",
+      desc: "Explore Wildpalms 18+ homes and uncover your ideal living space.",
    },
    {
       id: 2,
@@ -60,7 +60,7 @@ const feature_data: DataType[] = [
       icon: featureIcon_2,
       title: "RENT A HOME",
       btn:"Rent Home",
-      desc: "Discover a rental you'll love on homy, thanks to 35+ filters and tailored keywords.",
+      desc: "Discover a rental you'll love on Wildpalms, thanks to 35+ filters and tailored keywords.",
    },
    {
       id: 3,
@@ -236,7 +236,7 @@ const feature_data: DataType[] = [
       icon: feature5Icon_1,
       title: "Buy a home",
       btn: "Find Home",
-      desc: "Explore homy’s 2 million+ homes and uncover your ideal living space.",
+      desc: "Explore Wildpalm’s 2 million+ homes and uncover your ideal living space.",
    },
    {
       id: 2,
@@ -244,7 +244,7 @@ const feature_data: DataType[] = [
       icon: feature5Icon_2,
       title: "Buy a home",
       btn: "Rent Home",
-      desc: "Discover a rental you'll love on homy, thanks to 35+ filters and tailored keywords.",
+      desc: "Discover a rental you'll love on Wildpalm, thanks to 35+ filters and tailored keywords.",
       data_delay_time: "0.1s",
    },
    {
@@ -265,21 +265,21 @@ const feature_data: DataType[] = [
       page: "home_three_feature_2",
       icon: feature3Icon_4,
       title: "Property Insurance",
-      desc: "Elit esse cillum dolo fugiat nulla tur nos ullamo.",
+      desc: "Covers losses from damage to homes, buildings, belongings.",
    },
    {
       id: 2,
       page: "home_three_feature_2",
       icon: feature3Icon_5,
       title: "Easy Payments",
-      desc: "quis nostrud exerct ullamo sucirity finibus ne derived.",
+      desc: "Simplifies transactions with quick, convenient payment options.",
    },
    {
       id: 3,
       page: "home_three_feature_2",
       icon: feature3Icon_6,
       title: "Quick Process",
-      desc: "Duis aute irure dolor reprehe de Cicero's voluptat velit.",
+      desc: "Streamlined, efficient, and fast procedures for tasks.",
    },
 
    // home_4_feature_1
@@ -290,7 +290,7 @@ const feature_data: DataType[] = [
       icon: feature6Icon_1,
       title: "Buy a home",
       btn: "Find Home",
-      desc: "Explore homy’s 2 million+ homes and uncover your ideal living space.",
+      desc: "Explore Wildpalms 2 million+ homes and uncover your ideal living space.",
    },
    {
       id: 2,
@@ -298,7 +298,7 @@ const feature_data: DataType[] = [
       icon: feature6Icon_2,
       title: "Rent a home",
       btn: "Rent Home",
-      desc: "Discover a rental you'll love on homy, thanks to 35+ filters and tailored keywords.",
+      desc: "Discover a rental you'll love on Wildpalm, thanks to 35+ filters and tailored keywords.",
       data_delay_time: "0.1s",
    },
    {

@@ -29,8 +29,8 @@ const HeroBanner = () => {
          <div className="container position-relative z-2">
             <div className="row">
                <div className="col-lg-10 m-auto">
-                  <h1 className="hero-heading text-center text-white font-garamond fw-500 wow fadeInUp"><span><Image src={titleShape} alt="" className="lazy-img" /> Find the Right</span> <br /> Home for Your Family</h1>
-                  <p className="fs-24 text-white text-center pt-35 md-pt-20 pb-55 lg-pb-40 wow fadeInUp" data-wow-delay="0.1s">We’ve more than 745,000 apartments, place & plot.</p>
+                  <h1 className="hero-heading text-center text-white font-garamond fw-500 wow fadeInUp"><span><Image src={titleShape} alt="" className="lazy-img" /> Find the Right</span> <br /> Vacation Home for Your Family</h1>
+                  <p className="fs-24 text-white text-center pt-35 md-pt-20 pb-55 lg-pb-40 wow fadeInUp" data-wow-delay="0.1s">We’ve more than 19 apartments, place & plot.</p>
                </div>
             </div>
 				<div className="row">

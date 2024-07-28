@@ -24,11 +24,11 @@ const DropdownTwo = ({
                      <div className="label">I’m looking to...</div>
                      <NiceSelect className="nice-select"
                         options={[
-                           { value: "apartments", text: "Buy Apartments" },
-                           { value: "condos", text: "Rent Condos" },
-                           { value: "houses", text: "Sell Houses" },
-                           { value: "industrial", text: "Rent Industrial" },
-                           { value: "villas", text: "Sell Villas" },
+                           { value: "house", text: "House" },
+                           { value: "cottage", text: "Cottage" },
+                           { value: "flat", text: "Flat" },
+                           { value: "villas", text: "Villa" },
+                           { value: "luxury-villa", text: "Luxury Villa" },
                         ]}
                         defaultCurrent={0}
                         onChange={handleStatusChange}
@@ -41,13 +41,13 @@ const DropdownTwo = ({
                      <div className="label">Location</div>
                      <NiceSelect className="nice-select location"
                         options={[
-                           { value: "washington", text: "Washington DC" },
-                           { value: "mexico", text: "Acapulco, Mexico" },
-                           { value: "germany", text: "Berlin, Germany" },
-                           { value: "france", text: "Cannes, France" },
-                           { value: "india", text: "Delhi, India" },
-                           { value: "giza", text: "Giza, Egypt" },
-                           { value: "cuba", text: "Havana, Cuba" },
+                           { value: "candolim", text: "Candolim, Goa" },
+                           { value: "vagator", text: "Vagator, Goa" },
+                           { value: "arpora", text: "Arpora, Goa" },
+                           { value: "assagao", text: "Assagao, Goa" },
+                           { value: "nerul", text: "Nerul, Goa" },
+                           { value: "siolim", text: "Siolim, Goa" },
+                           { value: "morjim", text: "Morjim, Goa" },
                         ]}
                         defaultCurrent={0}
                         onChange={handleLocationChange}
@@ -61,9 +61,9 @@ const DropdownTwo = ({
                      <NiceSelect
                         className="nice-select"
                         options={[
-                           { value: "1", text: "$10,000 - $200,000" },
-                           { value: "2", text: "$20,000 - $300,000" },
-                           { value: "3", text: "$30,000 - $400,000" },
+                           { value: "1", text: "₹0 - ₹10,000" },
+                           { value: "2", text: "₹10,000 - ₹25,000" },
+                           { value: "3", text: "₹25,000 - ₹55,000" },
                         ]}
                         defaultCurrent={0}
                         onChange={(event) => handlePriceDropChange(event.target.value)}

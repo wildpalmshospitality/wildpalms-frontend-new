@@ -62,7 +62,7 @@ const BLockFeatureTwo = () => {
                            </div>
                            <ul className="list-style-one fs-22 color-dark style-none">
                               <li>Loan &amp; low Interest facility</li>
-                              <li>100k+ Property Listing  added & updated</li>
+                              <li>19+ Property Listing  added & updated</li>
                               <li>Expert agent consultation</li>
                            </ul>
                            <div className="mt-70 lg-mt-50">
