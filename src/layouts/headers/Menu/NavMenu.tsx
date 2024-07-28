@@ -32,9 +32,9 @@ const NavMenu = () => {
     return (
         <ul className="navbar-nav align-items-lg-center">
             <li className="d-block d-lg-none"><div className="logo"><Link href="/" className="d-block"><Image src={logo} alt="" /></Link></div></li>
-            <li className="nav-item dashboard-menu">
+            {/* <li className="nav-item dashboard-menu">
                 <Link className="nav-link" href="/dashboard/dashboard-index" target="_blank">Dashboard</Link>
-            </li>
+            </li> */}
             <li className="nav-item home">
                 <Link className="nav-link" href="/home-three">Home</Link>
             </li>
@@ -80,9 +80,9 @@ const NavMenu = () => {
             <li className="nav-item home">
                 <Link className="nav-link" href="/contact" >Contact Us</Link>
             </li>
-            <li className="nav-item home">
+            {/* <li className="nav-item home">
                 <Link className="nav-link" href="/blog_01">Blog</Link>
-            </li>
+            </li> */}
         </ul>
     );
 };
