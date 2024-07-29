@@ -133,10 +133,10 @@ const ListingThreeArea = ({ style }: any) => {
                            </ul>
                            <div className="pl-footer top-border d-flex align-items-center justify-content-between">
                               <strong className="price fw-500 color-dark">
-                                 ${item.price.toLocaleString(undefined, {
+                              ₹{item.price.toLocaleString(undefined, {
                                     minimumFractionDigits: item.price_text ? 0 : 2,
                                     maximumFractionDigits: 2
-                                 })}{item.price_text && <>/<sub>m</sub></>}
+                                 })}{item.price_text && <>/<sub>night</sub></>}
                               </strong>
                               <Link href="/listing_details_03" className="btn-four rounded-circle"><i className="bi bi-arrow-up-right"></i></Link>
                            </div>
