@@ -22,8 +22,8 @@ const footer_content: ContentType = {
    title: "Our Newsletter",
    desc_1: "Get instant news by subscribe to our newsletter",
    desc_2: "Siolim, Goa 403519",
-   email: "Nikhilgupta@crackerjack.live",
-   number: "+91 87578 50115",
+   email: "support@wildpalms.in",
+   number: "+91 87578 50115, +91 8595271771",
    icon: ["facebook-f", "twitter", "instagram"],
 }
 

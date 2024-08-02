@@ -15,11 +15,11 @@ interface ContentType {
 
 const feature_content: ContentType = {
    sub_title: "About us",
-   desc_1: (<>Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering .</>),
+   desc_1: (<>Wildpalms Hospitality was founded by Ashish Thakwani and Nikhil Gupta, who met through mutual friends. Identifying the unique challenges faced by backpackers in Goa, they launched Wildpalms Hospitality in 2022 with a single property. Today, our portfolio has expanded to 30 properties, consistently delivering exceptional hospitality experiences.</>),
    title_1: "Who we are?",
    title_2: "Our Mission",
-   desc_2: (<>Our founders Dustin Moskovitz & Justin Rosenstein met  leading Engineering teams at Facebook. As operations scaled, they grew frustrated by how difficult coordinate</>),
-   desc_3: (<>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore aliqua.</>),
+   desc_2: (<>We are a team of dedicated professionals committed to revolutionizing the hospitality industry. Our founders, Ashish Thakwani and Nikhil Gupta, are driven by their vision to provide top-notch accommodations for a diverse clientele, from backpackers to affluent travelers, with a range of luxury properties designed to meet various needs and preferences.</>),
+   desc_3: (<>Our mission is to offer seamless and enjoyable hospitality experiences. We aim to provide comfortable, affordable, and accessible accommodations, ensuring that every guest enjoys a memorable stay. Additionally, we offer serene and luxurious stays for affluent travelers seeking peace and comfort.</>),
 }
 
 const { sub_title, desc_1, title_1, title_2, desc_2, desc_3 } = feature_content;

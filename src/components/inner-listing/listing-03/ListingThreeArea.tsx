@@ -104,7 +104,7 @@ const ListingThreeArea = ({ style }: any) => {
                                  <div className="carousel-inner">
                                     {item.carousel_thumb.map((item: any, i: any) => (
                                        <div key={i} className={`carousel-item ${item.active}`} data-bs-interval="1000000">
-                                          <Link href="/listing_details_01" className="d-block"><Image src={item.img} className="w-100" alt="..." /></Link>
+                                          <Link href="#" className="d-block"><Image src={item.img} className="w-100" alt="..." /></Link>
                                        </div>
                                     ))}
                                  </div>
@@ -112,7 +112,7 @@ const ListingThreeArea = ({ style }: any) => {
                            </div>
                         </div>
                         <div className="property-info p-25">
-                           <Link href="/listing_details_03" className="title tran3s">{item.title}</Link>
+                           <Link href={`/prop${item.id}`} className="title tran3s">{item.title}</Link>
                            <div className="address">{item.address}</div>
                            <ul className="style-none feature d-flex flex-wrap align-items-center justify-content-between">
                               <li className="d-flex align-items-center">
@@ -138,7 +138,7 @@ const ListingThreeArea = ({ style }: any) => {
                                     maximumFractionDigits: 2
                                  })}{item.price_text && <>/<sub>night</sub></>}
                               </strong>
-                              <Link href="/listing_details_03" className="btn-four rounded-circle"><i className="bi bi-arrow-up-right"></i></Link>
+                              <Link href={`/prop${item.id}`} className="btn-four rounded-circle"><i className="bi bi-arrow-up-right"></i></Link>
                            </div>
                         </div>
                      </div>

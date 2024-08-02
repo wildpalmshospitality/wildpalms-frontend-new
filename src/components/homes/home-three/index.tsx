@@ -25,6 +25,7 @@ const HomeThree = () => {
       <Feedback style={false} />
       <Brand />
       <FancyBannerTwo />
+      <script src="//code.tidio.co/cqami1bfmtfzdjhjtxp1fosyc8couedg.js" async></script>
       <FooterTwo />
     </>
   )

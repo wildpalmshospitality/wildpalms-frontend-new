@@ -9,17 +9,17 @@ import propertyThumb_6 from "@/assets/images/listing/img_06.jpg";
 
 import property2Thumb_1 from "@/assets/images/listing/img_07.jpg";
 import property2Thumb_2 from "@/assets/images/listing/img_08.jpg";
-import property2Thumb_3 from "@/assets/images/listing/img_09.jpg";
+import property2Thumb_3 from "@/assets/images/listing/properties/siolim/IRIS Siolim/3bhk Siolim locations-02.png";
 
-import property3Thumb_1 from "@/assets/images/listing/img_13.jpg";
-import property3Thumb_2 from "@/assets/images/listing/img_14.jpg";
-import property3Thumb_3 from "@/assets/images/listing/img_15.jpg";
-import property3Thumb_4 from "@/assets/images/listing/img_16.jpg";
+import property3Thumb_1 from "@/assets/images/listing/properties/candolim/3BHK-CASA-MARY/3BHK-CASA-MARY (3).jpeg";
+import property3Thumb_2 from "@/assets/images/listing/properties/candolim/6BHK-CASA-ZAIN/6BHK-CASA-ZAIN (2).jpeg";
+import property3Thumb_3 from "@/assets/images/listing/properties/vagator/3BHK-VAGATOR/3BHK-VAGATOR (27).jpg";
+import property3Thumb_4 from "@/assets/images/listing/properties/vagator/Casa Royale/5BHK-VAGATOR (34).jpg";
 
-import propertyLargThumb_1 from "@/assets/images/listing/img_large_01.jpg";
-import propertyLargThumb_2 from "@/assets/images/listing/img_large_02.jpg";
-import propertyLargThumb_3 from "@/assets/images/listing/img_large_03.jpg";
-import propertyLargThumb_4 from "@/assets/images/listing/img_large_04.jpg";
+import propertyLargThumb_1 from "@/assets/images/listing/properties/candolim/3BHK-CASA-MARY/3BHK-CASA-MARY (10).jpeg";
+import propertyLargThumb_2 from "@/assets/images/listing/properties/candolim/3BHK-CASA-MARY/3BHK-CASA-MARY (11).jpeg";
+import propertyLargThumb_3 from "@/assets/images/listing/properties/candolim/3BHK-CASA-MARY/3BHK-CASA-MARY (11).jpeg";
+import propertyLargThumb_4 from "@/assets/images/listing/properties/vagator/3BHK-VAGATOR/3BHK-VAGATOR (1).jpg";
 import propertyLargThumb_5 from "@/assets/images/listing/img_large_05.jpg";
 import propertyLargThumb_6 from "@/assets/images/listing/img_large_06.jpg";
 
@@ -175,58 +175,58 @@ const property_data: DataType[] = [
       tag: "FOR RENT",
       thumb:property3Thumb_1,
       carousel_thumb: [{id:"1", img: propertyLargThumb_1}, {id:"2", img: propertyLargThumb_2 }, {id:"3", img: propertyLargThumb_3 }],
-      title: "Blueberry villa.",
-      address: "Mirpur 10, Stadium dhaka 1208",
-      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 1780 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o3 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o2 },],
-      price: 34900,
+      title: "WP-CM-Candolim",
+      address: "Candolim, Goa",
+      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 2000 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o3 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o3 },],
+      price: 25000,
       carousel:"03",
    },
    {
       id: 2,
       page: "home_3_property_2",
-      tag: "FOR SELL",
+      tag: "FOR RENT",
       thumb:property3Thumb_2,
       carousel_thumb: [{id:"4", img: propertyLargThumb_4}, {id:"5", img: propertyLargThumb_5 }, {id:"6", img: propertyLargThumb_6 }],
-      title: "White House villa",
-      address: "California link road, ca, usa",
-      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 2340 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o4 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o3 },],
-      price: 28100,
+      title: "WP-CZ-Candolim",
+      address: "Candolim, Goa",
+      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 4500 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o6 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o4 },],
+      price: 25000,
       carousel:"03",
    },
    {
       id: 3,
       page: "home_3_property_2",
-      tag: "FOR SELL",
+      tag: "FOR RENT",
       thumb:property3Thumb_3,
       carousel_thumb: [{id:"1", img: propertyLargThumb_1}, {id:"5", img: propertyLargThumb_5 }, {id:"3", img: propertyLargThumb_3 }, {id:"2", img: propertyLargThumb_2 }],
-      title: "Luxury villa in Dal lake.",
-      address: "Mirpur 10, Stadium",
-      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 1857 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o3 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o1 },],
-      price: 42500,
+      title: "3BHK Vagator",
+      address: "Vagator, Goa",
+      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 3554 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o3 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o3 },],
+      price: 28500,
       carousel:"04",
    },
    {
       id: 4,
       page: "home_3_property_2",
-      tag: "FOR SELL",
+      tag: "FOR RENT",
       thumb:property3Thumb_4,
       carousel_thumb: [{id:"4", img: propertyLargThumb_4}, {id:"6", img: propertyLargThumb_6 }, {id:"3", img: propertyLargThumb_3 }, {id:"2", img: propertyLargThumb_2 }],
-      title: "South Sun House",
-      address: "Mirpur 10, Stadium",
-      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 2450 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o4 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o3 },],
-      price: 55500,
+      title: "Casa Royal",
+      address: "Vagator, Goa",
+      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 4523 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o5 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o4 },],
+      price: 55000,
       carousel:"04",
    },
    {
       id: 5,
       page: "home_3_property_2",
       tag: "FOR SELL",
-      thumb:property3Thumb_2,
+      thumb:property2Thumb_3,
       carousel_thumb: [{id:"4", img: propertyLargThumb_4}, {id:"5", img: propertyLargThumb_5 }, {id:"6", img: propertyLargThumb_6 }],
-      title: "White House villa",
-      address: "California link road, ca, usa",
-      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 2340 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o4 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o3 },],
-      price: 28100,
+      title: "Iris Siolim",
+      address: "Siolim, Goa",
+      property_info: [{ icon: propertyIcon_1, feature: "sqft", total_feature: 2340 }, { icon: propertyIcon_2, feature: "bed", total_feature: 0o3 }, { icon: propertyIcon_3, feature: "bath", total_feature: 0o3 },],
+      price: 22100,
       carousel:"03",
    },
 

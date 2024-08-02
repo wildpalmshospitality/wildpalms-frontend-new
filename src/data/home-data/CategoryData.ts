@@ -23,7 +23,7 @@ const category_data: DataType[] = [
       id: 1,
       page: "home_3",
       icon: categoryIcon_1,
-      text: "Shopping Mall",
+      text: "Resorts",
    },
    {
       id: 2,
@@ -41,7 +41,7 @@ const category_data: DataType[] = [
       id: 4,
       page: "home_3",
       icon: categoryIcon_4,
-      text: "Industry",
+      text: "Hotels",
    },
    {
       id: 5,
@@ -49,12 +49,7 @@ const category_data: DataType[] = [
       icon: categoryIcon_5,
       text: "Office",
    },
-   {
-      id: 6,
-      page: "home_3",
-      icon: categoryIcon_6,
-      text: "Medical",
-   },
+
    {
       id: 7,
       page: "home_3",
@@ -65,7 +60,7 @@ const category_data: DataType[] = [
       id: 8,
       page: "home_3",
       icon: categoryIcon_8,
-      text: "Loft",
+      text: "Cottages",
    },
 
    // home_4

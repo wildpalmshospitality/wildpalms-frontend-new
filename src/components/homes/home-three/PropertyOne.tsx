@@ -17,26 +17,26 @@ interface DataType {
 const property_data: DataType[] = [
    {
       id: 1,
-      tag: "FOR SELL",
-      title: "Super luxury duplex orkit villa.",
-      address: "Mirpur 10, Stadium dhaka 1210",
-      property_info: [(<><span>2137</span> sqft</>), (<><span>03</span> beds</>), (<><span>01</span> kitchen</>), (<><span>02</span> baths</>),],
+      tag: "FOR Rent",
+      title: "Super luxury 1BHK villa.",
+      address: "Siolim, Goa",
+      property_info: [(<><span>1500</span> sqft</>), (<><span>01</span> beds</>), (<><span>01</span> kitchen</>), (<><span>01</span> baths</>),],
       icon: ["heart", "bookmark", "circle-plus"],
       item_bg_img:"property-item-1"
    },
    {
       id: 2,
-      tag: "FOR SELL",
-      title: "Swimming Pool Villa",
-      address: "127 green road, California, USA",
+      tag: "FOR Rent",
+      title: "Sharayu 1BHK",
+      address: "Siolim, Goa",
       item_bg_img:"property-item-2",
       class_name:"md-mt-40",
    },
    {
       id: 3,
       tag: "FOR Rent",
-      title: "Modern Duplex",
-      address: "Twin tower, 32 street, Florida",
+      title: "CASA Royal",
+      address: "Vagator, Goa",
       item_bg_img:"property-item-3",
       class_name:"mt-40",
    },
@@ -49,13 +49,13 @@ const PropertyOne = () => {
             <div className="position-relative">
                <div className="title-one mb-60 lg-mb-40 wow fadeInUp">
                   <h2 className="font-garamond star-shape">Featured <em>Listing</em> <span className="star-shape"><Image src={lineShape} alt="" className="lazy-img" /></span></h2>
-                  <p className="fs-22 m0">Explore featured properties for sale.</p>
+                  <p className="fs-22 m0">Explore featured properties for Rent.</p>
                </div>
 
                <div className="row gx-xxl-5">
                   {property_data.slice(0, 1).map((item) => (
                      <div key={item.id} className="col-lg-8 d-flex">
-                        <div className="listing-card-three w-100 h-100 position-relative z-1 wow fadeInUp" style={{ backgroundImage: `url(/assets/images/listing/img_12.jpg)` }}>
+                        <div className="listing-card-three w-100 h-100 position-relative z-1 wow fadeInUp" style={{ backgroundImage: `url(/assets/images/listing/vaddo.jpeg)` }}>
                            <div className="w-100 h-100 d-flex flex-column">
                               <div className="tag fw-500 text-uppercase">{item.tag}</div>
                               <div className="mt-100 mt-sm-auto wrapper d-flex flex-wrap justify-content-between align-items-center">

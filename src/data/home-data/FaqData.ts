@@ -65,22 +65,22 @@ const faq_data:DataType[] = [
    {
       id: 1,
       page: "home_six",
-      question: "Who we are?",
-      answer: "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering .",
+      question: "About Us",
+      answer: "Wildpalms Hospitality was founded by Ashish Thakwani and Nikhil Gupta, who met through mutual friends. Recognizing the unique challenges faced by backpackers in Goa, they launched Wildpalms Hospitality in 2022 with a single property. Today, our portfolio has expanded to 30 properties, consistently delivering exceptional hospitality experiences.",
       showAnswer: false,
    },
    {
       id: 2,
       page: "home_six",
-      question: "What’s our goal",
-      answer: "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering .",
+      question: "Who we are?",
+      answer: "We provide top-notch accommodations for a diverse clientele, from backpackers to affluent travelers, with a range of luxury properties designed to meet various needs and preferences.",
       showAnswer: false,
    },
    {
       id: 3,
       page: "home_six",
-      question: "Our vision",
-      answer: "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering .",
+      question: "Our Mission",
+      answer: "Our mission is to offer seamless and enjoyable hospitality experiences. We aim to provide comfortable, affordable, and accessible accommodations, ensuring that every guest enjoys a memorable stay. Additionally, we offer serene and luxurious stays for affluent travelers seeking peace and comfort.",
       showAnswer: false,
    },
 ];

@@ -19,7 +19,7 @@ const BLockFeatureTwo = () => {
                   <div className="col-xl-7 col-lg-6">
                      <div className="pe-xl-5 me-xxl-3 wow fadeInLeft">
                         <div className="title-one pe-xl-5">
-                           <h2 className="font-garamond">Explore & Find your <em>Dream</em> home <span className="star-shape"><Image src={featureimg_1} alt="" className="lazy-img" /></span></h2>
+                           <h2 className="font-garamond">Explore & Find your <em>Dream</em> Home <span className="star-shape"><Image src={featureimg_1} alt="" className="lazy-img" /></span></h2>
                         </div>
 
                         <div className="row gx-xl-4 align-items-end">
@@ -43,27 +43,27 @@ const BLockFeatureTwo = () => {
                   <div className="col-xl-5 col-lg-6">
                      <div className="block-two ps-xxl-5 md-mt-100">
                         <div className="bg-wrapper wow fadeInRight">
-                           <p className="fs-24 fst-italic pe-xl-5">“Your premier partner in real estate. Transforming properties into dreams. Let us guide you home with expertise.”</p>
+                           <p className="fs-24 fst-italic pe-xl-5">“Your premier partner in real estate. Transforming your properties into dreams.  Let us upscale your home with expertise.”</p>
                            <div className="counter-wrapper pb-40 mt-45 lg-mt-20 mb-60 lg-mb-20">
                               <div className="row">
                                  <div className="col-6">
                                     <div className="counter-block-one mt-20">
-                                       <div className="main-count fw-500 color-dark">$<span className="counter"><Count number={7} /></span>bil+</div>
-                                       <span>Project Handover</span>
+                                       <div className="main-count fw-500 color-dark">₹<span className="counter"><Count number={2.5} /></span>mil+</div>
+                                       <span>Worth Homes Transformed</span>
                                     </div>
                                  </div>
                                  <div className="col-6">
                                     <div className="counter-block-one mt-20">
-                                       <div className="main-count fw-500 color-dark"><span className="counter"><Count number={1.9} /></span>mil+</div>
+                                       <div className="main-count fw-500 color-dark"><span className="counter"><Count number={1.9} /></span>K+</div>
                                        <span>Happy Customers</span>
                                     </div>
                                  </div>
                               </div>
                            </div>
                            <ul className="list-style-one fs-22 color-dark style-none">
-                              <li>Loan &amp; low Interest facility</li>
-                              <li>19+ Property Listing  added & updated</li>
-                              <li>Expert agent consultation</li>
+                              <li>Upscale &amp; Redesign your properties</li>
+                              <li>25+ Property upscaled and listed</li>
+                              <li>Expert consultation</li>
                            </ul>
                            <div className="mt-70 lg-mt-50">
                               <Link href="/about_us_02" className="btn-five md"><span>Learn More</span> <i className="bi bi-arrow-up-right"></i></Link>

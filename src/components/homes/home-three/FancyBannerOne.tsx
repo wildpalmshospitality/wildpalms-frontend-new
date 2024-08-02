@@ -125,10 +125,10 @@ const FancyBannerOne = () => {
                <div className="text-slide-wrapper">
 						<div className="marquee">
 						  <p>
-							Dubai . America . Canada .
+							Goa . Bangalore . Mumbai .
 						  </p>
 						  <p>
-							Dubai . America . Canada .
+							Goa . Bangalore . Mumbai .
 						  </p>
 						</div>
 					</div>
